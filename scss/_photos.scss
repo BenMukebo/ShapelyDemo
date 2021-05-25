@@ -1,0 +1,179 @@
+.photos{
+    width: 100%;
+    height: auto;
+    display: grid;
+    // grid-template-columns: repeat(1, 1fr);
+    background: rgba(#0e1015, 0.96);
+
+
+
+    .photo-1{
+        max-width: 100%;
+        width: auto;
+        height: 500px;
+        // margin: 0 auto;
+        background: 
+         center top/cover url('../img/photo-1.jpg');
+        //  @include transition-ease;
+
+
+        h5{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+            font-weight: 600;
+            @include set-text-bg-color(transparent);
+            transform: translateY(50%);
+            visibility: hidden;
+            transition: all .3s ease;  
+            
+            // transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+
+        }
+        &:hover{
+            // aspect-ratio: auto 1200 / 837;
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-1.jpg');
+
+            h5{
+                transform: translateY(0);
+                visibility: visible;
+            }
+        }
+    }
+
+    .photo-2{
+        @extend .photo-1;
+        background: 
+         center top/cover url('../img/photo-2.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-2.jpg');
+        }
+    }
+
+    .photo-3{
+        @extend .photo-1;
+        background: 
+         center top/cover url('../img/photo-3.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-3.jpg');
+        }
+    }
+    .photo-4{
+        @extend .photo-1;
+        background: 
+         center top/cover url('../img/photo-4.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-4.jpg');
+        }
+    }
+
+    .photo-5{
+        @extend .photo-1;
+        background: 
+         center top/cover url('../img/photo-5.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-5.jpg');
+        }
+    }
+
+    .photo-6{
+        @extend .photo-1;
+        background: 
+         center top/cover url('../img/photo-6.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-6.jpg');
+        }
+    }
+
+    .photo-7{
+        @extend .photo-1;
+        background: 
+         center top/cover url('../img/photo-7.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-7.jpg');
+        }
+    }
+
+    .photo-8{
+        @extend .photo-1;
+        background: 
+         center top/cover url('../img/photo-8.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-8.jpg');
+        }
+    }
+    .photo-9{
+        @extend .photo-1;
+        background: 
+         center top/cover url('../img/photo-9.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-9.jpg');
+        }
+    }
+
+    .photo-10{
+        @extend .photo-1;
+        background: 
+         center top/cover url('../img/photo-10.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-10.jpg');
+        }
+    }
+
+    .photo-11{
+        @extend .photo-1;
+        background: 
+         center top/cover url('../img/photo-11.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-11.jpg');
+        }
+    }
+
+    .photo-12{
+        @extend .photo-12;
+        background: 
+         center top/cover url('../img/photo-12.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-12.jpg');
+        }
+    }
+
+    .photo-0{
+        @extend .photo-1;
+        background: 
+         center top/cover url('../img/photo-0.jpg');
+
+        &:hover{
+            background: linear-gradient(to left top, rgba(#000, 0.6), rgba(#000, 0.2)),
+            center top/cover url('../img/photo-0.jpg');
+        }
+    } 
+}
+

@@ -1,0 +1,300 @@
+@media screen and (min-width: 768px) {
+    header{
+        position: fixed;
+
+    }
+    .home{
+        h1{
+            font-size: 60px;
+            line-height: 64px;
+            font-weight: 400;
+        }
+    }
+
+    .seo{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        margin: 0 auto;
+    
+        img{
+            width: 350px;
+            height: 250px;
+            margin: 0 auto;
+            // background-color: chartreuse;
+        } 
+        .seo-section{
+            // background-color: chocolate;
+            width: 300px;
+            padding: 0 20px 20px 0;
+            margin: 0 auto;
+            h3{
+                font-size: 32px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 1.8;
+                margin: 1em 0 2.4em;
+            }
+        }
+        .portof-section{
+            padding-bottom: 80px;
+        }
+
+    }
+    .limitless{
+        .limitless-section{
+            // background-color: chocolate;
+            width: 70%;
+            max-width: 940px;
+            h3{
+                font-size: 32px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 1.8;
+                margin: 1em 0 2.4em;
+            }
+        }
+        img{
+            padding: 0 5%;
+        }
+    }
+
+    .portof{
+        article{
+            padding: 120px 20px;
+            h2{
+                font-size: 60px;
+                font-weight: 300;
+                // line-height: 64px;
+            }
+        }
+    }
+
+
+    .footer-limit{
+        font-weight: 400;
+        h3{
+            font-size: 30px;
+            line-height: 33px;   
+        }
+        p{
+            font-size: 14px;
+            
+        }
+    }
+    
+    .last-section{
+
+        .customers{
+            width: 640px;
+            
+            h3{
+                font-size: 32px;
+                font-weight: 300;
+            }
+            .carousel-section{
+                p{
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 1.8;
+                    margin: 1em 0 2.4em;
+                }
+            }
+    
+        }
+
+        .logo-anime{
+            // background-color: red;
+
+            h3{
+                font-size: 30px;
+                font-weight: 300;
+            }
+        }
+    }
+
+
+    .download{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        // width: 
+        h3{
+            font-size: 30px;
+            font-weight: 300;
+            // margin-bottom: 20px;
+            padding: 0 13px;
+        }
+        button{
+            @include set-btn;
+            // min-width: 200px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+    }
+
+    .photos{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    
+        .photo-1{
+            max-width: 100%;
+            width: auto;
+            height: 270px;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .head-btn {
+        visibility: hidden;
+    }
+    .nav{
+        visibility: visible;
+    }
+
+    .seo{
+        
+        justify-content: space-between;
+        margin: 0 auto;
+    
+        img{
+            width: 600px;
+            height: auto;
+            // margin: 0 auto;
+        } 
+        .seo-section{
+            // width: 400px;
+            padding: 20px 0;
+           
+        }
+        .portof-section{
+            padding-bottom: 80px;
+
+        }
+
+    }    
+    .last-section{
+
+        .customers{
+            width: 786px;
+        }
+
+
+        .logo-anime{
+            // background-color: red;
+            .slider{
+                .slides{
+                    width: 1024px;
+                    margin: 0 auto;
+                    // white-space: nowrap;
+                    // flex-shrink: 0;
+                    .slide{
+                        margin: 0;
+                        padding: 0 6px;
+                        img{
+                            width: 100%;
+                            min-width: 250px;
+                            height: 100%;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+    .photos{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    
+    
+        .photo-1{
+            max-width: 100%;
+            width: auto;
+            height: 240px;
+        }
+    }
+  
+  }
+
+
+@media screen and (min-width: 1200px) {
+
+    header{
+        justify-content: space-around;
+
+        h3{
+            position: static;
+        }
+    }
+
+    .seo{
+        display: flex;
+        justify-content: center;
+        
+
+        margin: 0 auto;
+        padding: 80px 50px;
+    
+        img{
+            width: 670px;
+            height: auto;
+            // margin: 0 auto;
+        } 
+        .seo-section{
+            width: 400px;
+            padding: 80px 0;
+            // margin: 0 auto;
+           
+        }
+        .portof-section{
+            padding-bottom: 80px;
+
+        }
+
+    }
+
+    .photos{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        // grid-row-gap: 8rem;
+    
+        .photo-1{
+            max-width: 100%;
+            width: auto;
+            height: 280px;
+        }
+    }
+
+    .last-section{
+        .logo-anime{
+            // background-color: red;
+           
+            .slider{
+                .slides{
+                    width: 1080px;
+                    // background-color: red;
+
+                    .slide{
+                        margin: 0 0px;
+                        padding: 0;
+                        img{
+                            width: 100%;
+                            min-width: 270px;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

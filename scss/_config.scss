@@ -1,0 +1,46 @@
+$font-stack: raleway,helvetica neue,Helvetica,Arial,sans-serif;
+
+// $primary-color: #f2f7fb;
+$primary-color:#fff;
+$btn-color: #745cf9;
+$secondary-color: #263544;
+$h-color: #666;
+$petit-color: #8c979e;
+// $secondary-color: #ff652f;
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin transition-ease {
+    transition: all 0.5s ease-in-out;    
+}
+// set the color based on bg
+@function set-text-color($color){
+    @if(lightness($color) > 70%){ // or > 40
+        @return #4c4c4c;
+    } @else{
+        @return #fff; //#8c979e
+    }  
+} 
+
+@mixin set-text-bg-color($colors){
+    background-color: $colors;
+    color: set-text-color($colors);
+}
+
+@mixin set-btn{
+    @include set-text-bg-color($btn-color);
+    min-width: 200px;
+    padding: 18px 26px;
+    border: 2px solid #745cf9;
+    cursor: pointer;
+    
+}
+
+
