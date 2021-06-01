@@ -2,7 +2,7 @@
 
 > Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate error dolor explicabo, ea sunt! Nemo quis eaque, provident ratione omnis facere vitae esse qui nostrum praesentium cum similique quas?
 
-![screenshot](../img/Screenshot.png)
+![screenshot](./img/Screenshot.png)
 
 
 This website was designed with the tools below:
