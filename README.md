@@ -15,7 +15,7 @@ This website was designed with the tools below:
 
 ## Live Demo
 
-[Visit the website](https://wechangeeverythingwordpress.netlify.app)
+[Visit the website](https://benmukebo.github.io/ShapelyDemo/)
 
 
 ## Getting Started
