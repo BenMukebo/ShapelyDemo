@@ -67,13 +67,16 @@
                 }
                 &:hover{
                     background: #f8f8f8;
-                    
                 }
             }
         }
         &:hover ul{
             visibility: visible;
         }
+        &:active ul{
+            visibility: visible;
+        }
+        
         &:last-child{
             // position: relative;
             padding-left:  45px;
