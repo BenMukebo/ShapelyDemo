@@ -1,6 +1,8 @@
 # ShapelyDemo
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate error dolor explicabo, ea sunt! Nemo quis eaque, provident ratione omnis facere vitae esse qui nostrum praesentium cum similique quas?
+## Description
+
+> "ShapelyDemo" is a powerful and versatile one page WordPress theme with pixel perfect design and outstanding functionality. It is by far the most advanced free WordPress theme available today with loads of unmatched customization options. This theme comes with several homepage widgets that can be used to add portfolio, testimonials, parallax sections, your product or service information, call for action and much more.
 
 ![screenshot](./img/Screenshot.png)
 
@@ -12,6 +14,7 @@ This website was designed with the tools below:
 - HTML
 - CSS Grid
 - SASS
+- JavaScript(DOM)
 
 ## Live Demo
 
@@ -39,4 +42,8 @@ Contributions, issues, and feature requests are welcome!
 ## Show your support
 
 Give a ⭐️ if you like this project!❤️❤️❤️
+
+## Acknowledgments
+
+- [Colorlib](https://colorlib.com/)
 
