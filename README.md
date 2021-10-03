@@ -31,12 +31,14 @@ This website was designed with the tools below:
 
 - GitHub: [@BenMukebo](https://github.com/BenMukebo)
 - LinkedIn: [Ben Mukebo](https://www.linkedin.com/in/kasongo-mukebo-ben-591720205/)
-- - Twitter: [@BenMukebo](https://twitter.com/)
+- Twitter: [@BenMukebo](https://twitter.com/)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 
 ## Show your support
